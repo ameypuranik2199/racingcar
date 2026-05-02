@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gesture Racing</title>
+<style>
+body { margin:0; overflow:hidden; background:#111; }
+canvas { display:block; margin:auto; background:green; }
+video { position:absolute; top:10px; left:10px; width:200px; border:2px solid white; }
+</style>
+</head>
+<body>
+
+<video id="video" autoplay muted></video>
+<canvas id="gameCanvas"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
